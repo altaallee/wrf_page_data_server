@@ -1,0 +1,9 @@
+[
+    { "name": "New Zealand Extended", "value": "nz_outer", "domNum": 1, "freq": 1 },
+    { "name": "New Zealand", "value": "nz_inner", "domNum": 2, "freq": 1 },
+    { "name": "North Island", "value": "north_island", "domNum": 2, "freq": 1 },
+    { "name": "South Island", "value": "south_island", "domNum": 2, "freq": 1 },
+    { "name": "Auckland", "value": "auckland", "domNum": 2, "freq": 1 },
+    { "name": "Christchurch", "value": "christchurch", "domNum": 2, "freq": 1 },
+    { "name": "Christchurch Inner", "value": "christchurch_inner", "domNum": 3, "freq": 0.5 }
+]
