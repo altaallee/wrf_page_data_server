@@ -1,65 +1,65 @@
 {
     "Surface": [
-        { "name": "2-m Temperature", "value": "T2M", "maxDom": 99, "freq": 0.25 },
-        { "name": "2-m Apparent Temperature", "value": "TA2M", "maxDom": 99, "freq": 0.25 },
-        { "name": "2-m Dew Point", "value": "DPT2M", "maxDom": 99, "freq": 0.25 },
-        { "name": "10-m Wind", "value": "WIND10M", "maxDom": 99, "freq": 0.25 },
-        { "name": "2-m Relative Humidity", "value": "RH2M", "maxDom": 99, "freq": 0.25 }
+        { "name": "2-m Temperature", "value": "t2m", "maxDom": 99, "freq": 0.25 },
+        { "name": "2-m Apparent Temperature", "value": "ta2m", "maxDom": 99, "freq": 0.25 },
+        { "name": "2-m Dew Point", "value": "dpt2m", "maxDom": 99, "freq": 0.25 },
+        { "name": "10-m Wind", "value": "wind10m", "maxDom": 99, "freq": 0.25 },
+        { "name": "2-m Relative Humidity", "value": "rh2m", "maxDom": 99, "freq": 0.25 }
     ],
     "Precipitation": [
-        { "name": "1-hr Precipitation", "value": "QPF1H", "maxDom": 99, "freq": 1 },
-        { "name": "Total Precipitation", "value": "QPF", "maxDom": 99, "freq": 0.25 },
-        { "name": "Composite Reflectivity", "value": "DBZCOMP", "maxDom": 99, "freq": 0.25 },
-        { "name": "1km Reflectivity", "value": "DBZ1KM", "maxDom": 99, "freq": 0.25 },
-        { "name": "Precipitable Water", "value": "PWAT", "maxDom": 2, "freq": 0.25 },
-        { "name": "Integrated Vapor Transport", "value": "IVT", "maxDom": 2, "freq": 0.25 }
+        { "name": "1-hr Precipitation", "value": "qpf1h", "maxDom": 99, "freq": 1 },
+        { "name": "Total Precipitation", "value": "qpft", "maxDom": 99, "freq": 0.25 },
+        { "name": "Composite Reflectivity", "value": "dbzcomp", "maxDom": 99, "freq": 0.25 },
+        { "name": "1km Reflectivity", "value": "dbz1km", "maxDom": 99, "freq": 0.25 },
+        { "name": "Precipitable Water", "value": "pwat", "maxDom": 2, "freq": 0.25 },
+        { "name": "Integrated Vapor Transport", "value": "ivt", "maxDom": 2, "freq": 0.25 }
     ],
     "Upper Air Dynamics": [
-        { "name": "500mb Vertical Velocity", "value": "OMEGA500", "maxDom": 99, "freq": 0.25 },
-        { "name": "700mb Vertical Velocity", "value": "OMEGA700", "maxDom": 99, "freq": 0.25 },
-        { "name": "850mb Vertical Velocity", "value": "OMEGA850", "maxDom": 99, "freq": 0.25 },
-        { "name": "500mb Vorticity", "value": "VORT500", "maxDom": 2, "freq": 0.25 },
-        { "name": "700mb Vorticity", "value": "VORT700", "maxDom": 2, "freq": 0.25 },
-        { "name": "850mb Vorticity", "value": "VORT850", "maxDom": 2, "freq": 0.25 }
+        { "name": "500mb Vertical Velocity", "value": "omega500", "maxDom": 2, "freq": 0.25 },
+        { "name": "700mb Vertical Velocity", "value": "omega700", "maxDom": 2, "freq": 0.25 },
+        { "name": "850mb Vertical Velocity", "value": "omega850", "maxDom": 2, "freq": 0.25 },
+        { "name": "500mb Vorticity", "value": "vort500", "maxDom": 2, "freq": 0.25 },
+        { "name": "700mb Vorticity", "value": "vort700", "maxDom": 2, "freq": 0.25 },
+        { "name": "850mb Vorticity", "value": "vort850", "maxDom": 2, "freq": 0.25 }
     ],
     "Upper Air Wind": [
-        { "name": "250mb Wind", "value": "WIND250", "maxDom": 2, "freq": 0.25 },
-        { "name": "500mb Wind", "value": "WIND500", "maxDom": 2, "freq": 0.25 },
-        { "name": "700mb Wind", "value": "WIND700", "maxDom": 2, "freq": 0.25 },
-        { "name": "850mb Wind", "value": "WIND850", "maxDom": 2, "freq": 0.25 },
-        { "name": "925mb Wind", "value": "WIND925", "maxDom": 2, "freq": 0.25 }
+        { "name": "250mb Wind", "value": "wind250", "maxDom": 2, "freq": 0.25 },
+        { "name": "500mb Wind", "value": "wind500", "maxDom": 2, "freq": 0.25 },
+        { "name": "700mb Wind", "value": "wind700", "maxDom": 2, "freq": 0.25 },
+        { "name": "850mb Wind", "value": "wind850", "maxDom": 2, "freq": 0.25 },
+        { "name": "925mb Wind", "value": "wind925", "maxDom": 2, "freq": 0.25 }
     ],
     "Upper Air Temperature": [
-        { "name": "500mb Temperature", "value": "T500", "maxDom": 2, "freq": 0.25 },
-        { "name": "700mb Temperature", "value": "T700", "maxDom": 2, "freq": 0.25 },
-        { "name": "850mb Temperature", "value": "T850", "maxDom": 2, "freq": 0.25 },
-        { "name": "925mb Temperature", "value": "T925", "maxDom": 2, "freq": 0.25 }
+        { "name": "500mb Temperature", "value": "t500", "maxDom": 2, "freq": 0.25 },
+        { "name": "700mb Temperature", "value": "t700", "maxDom": 2, "freq": 0.25 },
+        { "name": "850mb Temperature", "value": "t850", "maxDom": 2, "freq": 0.25 },
+        { "name": "925mb Temperature", "value": "t925", "maxDom": 2, "freq": 0.25 }
     ],
     "Upper Air Moisture": [
-        { "name": "250mb Relative Humidity", "value": "RH250", "maxDom": 2, "freq": 0.25 },
-        { "name": "500mb Relative Humidity", "value": "RH500", "maxDom": 2, "freq": 0.25 },
-        { "name": "700mb Relative Humidity", "value": "RH700", "maxDom": 2, "freq": 0.25 },
-        { "name": "850mb Relative Humidity", "value": "RH850", "maxDom": 2, "freq": 0.25 },
-        { "name": "925mb Relative Humidity", "value": "RH925", "maxDom": 2, "freq": 0.25 }
+        { "name": "250mb Relative Humidity", "value": "rh250", "maxDom": 2, "freq": 0.25 },
+        { "name": "500mb Relative Humidity", "value": "rh500", "maxDom": 2, "freq": 0.25 },
+        { "name": "700mb Relative Humidity", "value": "rh700", "maxDom": 2, "freq": 0.25 },
+        { "name": "850mb Relative Humidity", "value": "rh850", "maxDom": 2, "freq": 0.25 },
+        { "name": "925mb Relative Humidity", "value": "rh925", "maxDom": 2, "freq": 0.25 }
     ],
     "Cloud Cover": [
-        { "name": "High Cloud Cover", "value": "CLOUDCOVERHIGH", "maxDom": 99, "freq": 0.25 },
-        { "name": "Mid Cloud Cover", "value": "CLOUDCOVERMID", "maxDom": 99, "freq": 0.25 },
-        { "name": "Low Cloud Cover", "value": "CLOUDCOVERLOW", "maxDom": 99, "freq": 0.25 },
-        { "name": "Cloud Top Temperature", "value": "CTT", "maxDom": 99, "freq": 0.25 }
+        { "name": "High Cloud Cover", "value": "cloudcoverhigh", "maxDom": 99, "freq": 0.25 },
+        { "name": "Mid Cloud Cover", "value": "cloudcovermid", "maxDom": 99, "freq": 0.25 },
+        { "name": "Low Cloud Cover", "value": "cloudcoverlow", "maxDom": 99, "freq": 0.25 },
+        { "name": "Cloud Top Temperature", "value": "ctt", "maxDom": 99, "freq": 0.25 }
     ],
     "Severe": [
-        { "name": "Most Unstable CAPE", "value": "CAPEMU", "maxDom": 99, "freq": 0.25 },
-        { "name": "CIN", "value": "CIN", "maxDom": 99, "freq": 0.25 },
-        { "name": "700-500mb Lapse Rate", "value": "LR700500", "maxDom": 99, "freq": 0.25 }
+        { "name": "Most Unstable CAPE", "value": "capemu", "maxDom": 99, "freq": 0.25 },
+        { "name": "CIN", "value": "cin", "maxDom": 99, "freq": 0.25 },
+        { "name": "700-500mb Lapse Rate", "value": "lr700500", "maxDom": 2, "freq": 0.25 }
     ],
     "Winter": [
-        { "name": "1-hr Snowfall", "value": "SNOW1H", "maxDom": 99, "freq": 0.25 },
-        { "name": "Total Snowfall", "value": "SNOWTOTAL", "maxDom": 99, "freq": 0.25 },
-        { "name": "Snow Depth", "value": "SNOWDEPTH", "maxDom": 99, "freq": 0.25 }
+        { "name": "1-hr Snowfall", "value": "snow1h", "maxDom": 99, "freq": 0.25 },
+        { "name": "Total Snowfall", "value": "snowt", "maxDom": 99, "freq": 0.25 },
+        { "name": "Snow Depth", "value": "snow", "maxDom": 99, "freq": 0.25 }
     ],
     "Radiation": [
-        { "name": "Outgoing Longwave Radiation", "value": "OLR", "maxDom": 99, "freq": 0.25 },
-        { "name": "Surface Downward Shortwave Radiation", "value": "SWDOWN", "maxDom": 99, "freq": 0.25 }
+        { "name": "Outgoing Longwave Radiation", "value": "olr", "maxDom": 99, "freq": 0.25 },
+        { "name": "Surface Downward Shortwave Radiation", "value": "swdown", "maxDom": 99, "freq": 0.25 }
     ]
 }
