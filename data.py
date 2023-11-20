@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, send_file
 from flask_cors import CORS
 from pathlib import Path
 
@@ -15,6 +15,7 @@ def home():
            /wrf/domains = list of map domains</br>
            /wrf/stations = list of sounding stations</br>
            /wrf/products = wrf products</br>
+           /wrf/images = wrf images</br>
            """
 
 
@@ -26,6 +27,7 @@ def wrf():
            /wrf/domains = list of map domains</br>
            /wrf/stations = list of sounding stations</br>
            /wrf/products = wrf products</br>
+           /wrf/images = wrf images</br>
            """
 
 
@@ -52,6 +54,7 @@ def wrf_domains():
                Invalid Request
                """
 
+
 @app.route("/wrf/stations", methods=["GET"])
 def wrf_stations():
     try:
@@ -62,6 +65,8 @@ def wrf_stations():
                <h1>WRF API</h1>
                Invalid Request
                """
+
+
 @app.route("/wrf/products", methods=["GET"])
 def wrf_products():
     try:
@@ -71,4 +76,27 @@ def wrf_products():
         return """
                <h1>WRF API</h1>
                Invalid Request
+               """
+
+
+@app.route("/wrf/images", methods=["GET"])
+def wrf_images():
+    try:
+        req = dict(request.values)
+        domain = req.get("domain")
+        ens = req.get("ens")
+        fcst_date = req.get("fcst_date")
+        init_date = req.get("init_date")
+        product = req.get("product")
+        return send_file(
+            f"images_wrf/{init_date}/{ens}/{product}/{domain}/{product}_{domain}_{fcst_date}.png",
+            download_name=f"{product}_{domain}_{fcst_date}.png")
+    except:
+        return """
+               <h1>WRF API</h1>
+               ?domain = domain</br>
+               ?ens = ensemble member</br>
+               ?fcst_date = forecast date (YYYYMMDDHHmm)</br>
+               ?init_date = initialized date (YYYYMMDDHHmm)</br>
+               ?product = product</br>
                """
