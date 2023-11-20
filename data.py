@@ -11,10 +11,10 @@ CORS(app)
 def home():
     return """
            <h1>API</h1>
-           /wrf/times = list of model init times
-           /wrf/domains = list of map domains
-           /wrf/stations = list of sounding stations
-           /wrf/products = wrf products
+           /wrf/times = list of model init times</br>
+           /wrf/domains = list of map domains</br>
+           /wrf/stations = list of sounding stations</br>
+           /wrf/products = wrf products</br>
            """
 
 
@@ -22,10 +22,10 @@ def home():
 def wrf():
     return """
            <h1>WRF API</h1>
-           /wrf/times = list of model init times
-           /wrf/domains = list of map domains
-           /wrf/stations = list of sounding stations
-           /wrf/products = wrf products
+           /wrf/times = list of model init times</br>
+           /wrf/domains = list of map domains</br>
+           /wrf/stations = list of sounding stations</br>
+           /wrf/products = wrf products</br>
            """
 
 
