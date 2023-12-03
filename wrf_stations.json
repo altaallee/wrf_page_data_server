@@ -1,4 +1,21 @@
 [
-    { "name": "Auckland", "value": "Auckland", "freq": 1 },
-    { "name": "Christchurch", "value": "Christchurch", "freq": 1 }
+    { "name": "Auckland Intl", "value": "AKL", "freq": 1 },
+    { "name": "Bleheim", "value": "BHE", "freq": 1 },
+    { "name": "Chatham Isl", "value": "CHT", "freq": 1 },
+    { "name": "Christchurch", "value": "CHC", "freq": 1 },
+    { "name": "Dunedin", "value": "DUD", "freq": 1 },
+    { "name": "Gisborne", "value": "GIS", "freq": 1 },
+    { "name": "Hokitika", "value": "HKK", "freq": 1 },
+    { "name": "Invercargill", "value": "IVC", "freq": 1 },
+    { "name": "Kaikoura", "value": "KBZ", "freq": 1 },
+    { "name": "Kaitaia", "value": "KAT", "freq": 1 },
+    { "name": "Milford Sound", "value": "MFN", "freq": 1 },
+    { "name": "New Plymouth", "value": "NPL", "freq": 1 },
+    { "name": "Oamaru", "value": "OAM", "freq": 1 },
+    { "name": "Ohakea", "value": "OHA", "freq": 1 },
+    { "name": "Paraparaumu", "value": "PPQ", "freq": 1 },
+    { "name": "Rotorua", "value": "ROT", "freq": 1 },
+    { "name": "Tauranga", "value": "TRG", "freq": 1 },
+    { "name": "Wellington", "value": "WLG", "freq": 1 },
+    { "name": "Westport Harbour", "value": "WSZ", "freq": 1 }
 ]
