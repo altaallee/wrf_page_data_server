@@ -30,10 +30,11 @@
         { "name": "925mb Wind", "value": "wind925", "maxDom": 2, "freq": 0.25 }
     ],
     "Upper Air Temperature": [
-        { "name": "500mb Temperature", "value": "t500", "maxDom": 2, "freq": 0.25 },
         { "name": "700mb Temperature", "value": "t700", "maxDom": 2, "freq": 0.25 },
         { "name": "850mb Temperature", "value": "t850", "maxDom": 2, "freq": 0.25 },
-        { "name": "925mb Temperature", "value": "t925", "maxDom": 2, "freq": 0.25 }
+        { "name": "925mb Temperature", "value": "t925", "maxDom": 2, "freq": 0.25 },
+        { "name": "700mb Temperature Advection", "value": "tadv700", "maxDom": 2, "freq": 0.25 },
+        { "name": "850mb Temperature Advection", "value": "tadv850", "maxDom": 2, "freq": 0.25 }
     ],
     "Upper Air Moisture": [
         { "name": "250mb Relative Humidity", "value": "rh250", "maxDom": 2, "freq": 0.25 },
