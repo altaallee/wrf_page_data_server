@@ -16,6 +16,7 @@ def home():
            /wrf/stations = list of sounding stations</br>
            /wrf/products = wrf products</br>
            /wrf/images = wrf images</br>
+           /wrf/time_series = wrf time series</br>
            """
 
 
@@ -97,6 +98,25 @@ def wrf_images():
                ?domain = domain</br>
                ?ens = ensemble member</br>
                ?fcst_date = forecast date (YYYYMMDDHHmm)</br>
-               ?init_date = initialized date (YYYYMMDDHHmm)</br>
+               ?init_date = initialized date (YYYYMMDDHH)</br>
                ?product = product</br>
+               """
+
+
+@app.route("/wrf/time_series", methods=["GET"])
+def wrf_time_series():
+    try:
+        req = dict(request.values)
+        domain = req.get("domain")
+        ens = req.get("ens")
+        init_date = req.get("init_date")
+        return send_file(
+            f"images_wrf/{init_date}/{ens}/time_series/{domain}/time_series.json",
+            download_name=f"time_series_{domain}_{init_date}.json")
+    except:
+        return """
+               <h1>WRF API</h1>
+               ?domain = domain</br>
+               ?ens = ensemble member</br>
+               ?init_date = initialized date (YYYYMMDDHH)</br>
                """
