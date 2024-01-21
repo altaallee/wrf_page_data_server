@@ -55,7 +55,7 @@
         { "name": "700-500mb Lapse Rate", "value": "lr700500", "maxDom": 2, "freq": 0.25 }
     ],
     "Winter": [
-        { "name": "1-hr Snowfall", "value": "snow1h", "maxDom": 99, "freq": 0.25 },
+        { "name": "1-hr Snowfall", "value": "snow1h", "maxDom": 99, "freq": 1 },
         { "name": "Total Snowfall", "value": "snowt", "maxDom": 99, "freq": 0.25 },
         { "name": "Snow Depth", "value": "snow", "maxDom": 99, "freq": 0.25 }
     ],
